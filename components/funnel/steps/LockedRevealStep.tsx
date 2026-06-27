@@ -67,9 +67,6 @@ export default function LockedRevealStep({ onComplete }: LockedRevealStepProps) 
       >
         Reveal Names
       </button>
-
-      {/* Footer */}
-      <div className="text-gray-600 text-xs">Free · iOS only · No login required</div>
     </div>
   );
 }

@@ -86,9 +86,6 @@ export default function AppShowcaseStep({ onComplete }: AppShowcaseStepProps) {
       >
         Download Free on iPhone
       </button>
-
-      {/* Footer */}
-      <div className="text-gray-600 text-xs">Free · iOS only · No login required</div>
     </div>
   );
 }
