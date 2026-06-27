@@ -61,12 +61,15 @@ export default function LockedRevealStep({ onComplete }: LockedRevealStepProps) 
       </div>
 
       {/* CTA Button */}
-      <button
-        onClick={() => onComplete(3)}
-        className="w-full max-w-md py-4 px-6 rounded-full text-white font-bold text-lg bg-gradient-to-r from-rose-500 to-pink-500 hover:from-rose-400 hover:to-pink-400 transition-all duration-300 shadow-lg hover:shadow-rose-500/50 mb-8"
-      >
-        Reveal Names
-      </button>
+      <div className="w-full max-w-md mb-8">
+        <button
+          onClick={() => onComplete(3)}
+          className="w-full py-4 px-6 rounded-full text-white font-bold text-lg bg-gradient-to-r from-rose-500 to-pink-500 hover:from-rose-400 hover:to-pink-400 transition-all duration-300 shadow-lg hover:shadow-rose-500/50 mb-2"
+        >
+          Reveal Names
+        </button>
+        <p className="text-center text-xs text-gray-500">ios, us only</p>
+      </div>
     </div>
   );
 }

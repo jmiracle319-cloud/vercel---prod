@@ -80,12 +80,15 @@ export default function AppShowcaseStep({ onComplete }: AppShowcaseStepProps) {
       </div>
 
       {/* CTA Button */}
-      <button
-        onClick={() => onComplete(2)}
-        className="w-full max-w-md py-4 px-6 rounded-full text-white font-bold text-lg bg-gradient-to-r from-cyan-400 to-blue-500 hover:from-cyan-300 hover:to-blue-400 transition-all duration-300 shadow-lg hover:shadow-cyan-500/50 mb-8"
-      >
-        Download Free on iPhone
-      </button>
+      <div className="w-full max-w-md mb-8">
+        <button
+          onClick={() => onComplete(2)}
+          className="w-full py-4 px-6 rounded-full text-white font-bold text-lg bg-gradient-to-r from-cyan-400 to-blue-500 hover:from-cyan-300 hover:to-blue-400 transition-all duration-300 shadow-lg hover:shadow-cyan-500/50 mb-2"
+        >
+          Download Free on iPhone
+        </button>
+        <p className="text-center text-xs text-gray-500">ios, us only</p>
+      </div>
     </div>
   );
 }
