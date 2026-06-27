@@ -88,6 +88,7 @@ export default function AppShowcaseStep({ onComplete }: AppShowcaseStepProps) {
           Download Free on iPhone
         </button>
         <p className="text-center text-xs text-gray-500">ios, us only</p>
+        <p className="text-center text-xs text-gray-500">Open within 10 minutes to use it for free</p>
       </div>
     </div>
   );

@@ -69,6 +69,7 @@ export default function LockedRevealStep({ onComplete }: LockedRevealStepProps) 
           Reveal Names
         </button>
         <p className="text-center text-xs text-gray-500">ios, us only</p>
+        <p className="text-center text-xs text-gray-500">Open within 10 minutes to use it for free</p>
       </div>
     </div>
   );
