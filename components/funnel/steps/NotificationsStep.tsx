@@ -81,9 +81,6 @@ export default function NotificationsStep({ onComplete }: NotificationsStepProps
       >
         Turn on Alerts
       </button>
-
-      {/* Footer */}
-      <div className="text-gray-600 text-xs">Get notified the second they leave</div>
     </div>
   );
 }
