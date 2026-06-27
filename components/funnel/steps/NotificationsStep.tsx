@@ -75,15 +75,16 @@ export default function NotificationsStep({ onComplete }: NotificationsStepProps
       </div>
 
       {/* CTA Button */}
-      <button
-        onClick={() => onComplete(4)}
-        className="w-full max-w-md py-4 px-6 rounded-full text-black font-bold text-lg bg-gradient-to-r from-purple-400 to-pink-400 hover:from-purple-300 hover:to-pink-300 transition-all duration-300 shadow-lg hover:shadow-purple-500/50 mb-8"
-      >
-        Turn on Alerts
-      </button>
-
-      {/* Footer */}
-      <div className="text-gray-600 text-xs">Get notified the second they leave</div>
+      <div className="w-full max-w-md mb-8">
+        <button
+          onClick={() => onComplete(4)}
+          className="w-full py-4 px-6 rounded-full text-black font-bold text-lg bg-gradient-to-r from-purple-400 to-pink-400 hover:from-purple-300 hover:to-pink-300 transition-all duration-300 shadow-lg hover:shadow-purple-500/50 mb-2"
+        >
+          Turn on Alerts
+        </button>
+        <p className="text-center text-xs text-gray-500">ios, us only</p>
+        <p className="text-center text-xs text-gray-500">Open within 10 minutes to use it for free</p>
+      </div>
     </div>
   );
 }
