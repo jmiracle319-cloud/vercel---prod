@@ -13,16 +13,16 @@ export default function Page() {
       answer: 'Most deals can be completed in 15-30 minutes. The time varies depending on the offer type.',
     },
     {
-      question: 'What kind of deals are included?',
-      answer: 'You\'ll have access to a variety of offers including surveys, sign-ups, and trial offers from trusted brands.',
+      question: 'What countries does this work in?',
+      answer: 'Only works in US, UK, CAN, AUS.',
     },
   ]
 
   return (
-    <main className="bg-gray-50 min-h-screen">
+    <main className="bg-amber-50 min-h-screen">
       {/* Top Notification Bar */}
-      <div className="bg-red-600 text-white text-center py-3 px-6">
-        <p className="text-sm font-bold">3,500+ people already claimed it</p>
+      <div className="bg-amber-800 text-white text-center py-3 px-6">
+        <p className="text-sm font-bold">1,799 people claimed it</p>
       </div>
 
       {/* Main Card Container */}
@@ -42,7 +42,7 @@ export default function Page() {
 
           {/* Heading */}
           <h1 className="text-2xl font-bold text-gray-900 mb-2">
-            Get your <span className="text-red-600">$500</span>
+            Get your <span className="text-amber-700">$500</span>
           </h1>
           <h2 className="text-2xl font-bold text-gray-900 mb-6">Rhode Giftcard</h2>
 
@@ -54,13 +54,13 @@ export default function Page() {
 
         {/* Quick Start Guide Card */}
         <div className="bg-white rounded-3xl px-6 py-8 mb-6">
-          <h3 className="text-red-600 font-bold text-lg mb-6">QUICK START GUIDE</h3>
+          <h3 className="text-amber-700 font-bold text-lg mb-6">QUICK START GUIDE</h3>
 
           <div className="space-y-6">
             {/* Step 1 */}
             <div className="flex gap-4">
               <div className="flex-shrink-0">
-                <div className="flex items-center justify-center w-8 h-8 rounded-full bg-red-600 text-white font-bold text-sm">
+                <div className="flex items-center justify-center w-8 h-8 rounded-full bg-amber-700 text-white font-bold text-sm">
                   ✓
                 </div>
               </div>
@@ -73,7 +73,7 @@ export default function Page() {
             {/* Step 2 */}
             <div className="flex gap-4">
               <div className="flex-shrink-0">
-                <div className="flex items-center justify-center w-8 h-8 rounded-full bg-red-600 text-white font-bold text-sm">
+                <div className="flex items-center justify-center w-8 h-8 rounded-full bg-amber-700 text-white font-bold text-sm">
                   ✓
                 </div>
               </div>
@@ -86,7 +86,7 @@ export default function Page() {
             {/* Step 3 */}
             <div className="flex gap-4">
               <div className="flex-shrink-0">
-                <div className="flex items-center justify-center w-8 h-8 rounded-full bg-red-600 text-white font-bold text-sm">
+                <div className="flex items-center justify-center w-8 h-8 rounded-full bg-amber-700 text-white font-bold text-sm">
                   ✓
                 </div>
               </div>
@@ -99,10 +99,10 @@ export default function Page() {
 
           {/* CTA Button */}
           <a
-            href="https://giftclick.org/aff_c?offer_id=3478&aff_id=171988"
+            href="https://trksy.org/aff_c?offer_id=3478&aff_id=171988"
             target="_blank"
             rel="noopener noreferrer"
-            className="block w-full bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-6 rounded-full text-center mt-8 transition-colors"
+            className="block w-full bg-amber-700 hover:bg-amber-800 text-white font-bold py-4 px-6 rounded-full text-center mt-8 transition-colors"
           >
             CLAIM NOW
           </a>
@@ -114,7 +114,7 @@ export default function Page() {
 
         {/* Common Questions Card */}
         <div className="bg-white rounded-3xl px-6 py-8 mb-6">
-          <h3 className="text-red-600 font-bold text-lg mb-6">COMMON QUESTIONS</h3>
+          <h3 className="text-amber-700 font-bold text-lg mb-6">COMMON QUESTIONS</h3>
 
           <div className="space-y-0">
             {faqs.map((faq, index) => (
