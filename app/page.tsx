@@ -1,7 +1,6 @@
 'use client'
 
 import { useState } from 'react'
-import Image from 'next/image'
 import { ChevronDown } from 'lucide-react'
 
 export default function Page() {
@@ -31,13 +30,7 @@ export default function Page() {
         <div className="bg-white rounded-3xl px-6 py-12 text-center mb-6">
           {/* Logo */}
           <div className="mb-8">
-            <Image
-              src="/rhode-logo.png"
-              alt="Rhode"
-              width={120}
-              height={120}
-              className="mx-auto"
-            />
+            <h3 className="text-4xl font-bold text-amber-700">RHODE</h3>
           </div>
 
           {/* Heading */}
