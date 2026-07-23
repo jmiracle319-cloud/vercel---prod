@@ -8,12 +8,12 @@ export default function Page() {
 
   const faqs = [
     {
-      question: 'How long do the deals take?',
-      answer: '5 to 15 minutes.',
+      question: 'Do I need a credit card?',
+      answer: 'No credit card required. It&apos;s completely free to participate.',
     },
     {
-      question: 'Is it really free?',
-      answer: 'Yes, completely free. No credit card required to claim your gift card.',
+      question: 'What countries does this work in?',
+      answer: 'Only works in US, UK, CAN, AUS.',
     },
   ]
 
