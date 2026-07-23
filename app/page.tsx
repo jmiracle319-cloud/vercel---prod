@@ -12,8 +12,8 @@ export default function Page() {
       answer: '5 to 15 minutes.',
     },
     {
-      question: 'What countries does this work in?',
-      answer: 'Only works in US, UK, CAN, AUS.',
+      question: 'Is it really free?',
+      answer: 'Yes, completely free. No credit card required to claim your gift card.',
     },
   ]
 
