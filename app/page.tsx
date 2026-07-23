@@ -9,7 +9,7 @@ export default function Page() {
   const faqs = [
     {
       question: 'How long do the deals take?',
-      answer: 'Most deals can be completed in 15-30 minutes. The time varies depending on the offer type.',
+      answer: '5 to 15 minutes.',
     },
     {
       question: 'What countries does this work in?',
