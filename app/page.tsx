@@ -8,8 +8,8 @@ export default function Page() {
 
   const faqs = [
     {
-      question: 'How long do the deals take?',
-      answer: 'Most deals can be completed in 15-30 minutes. The time varies depending on the offer type.',
+      question: 'Do I need a credit card?',
+      answer: 'No credit card required. It&apos;s completely free to participate.',
     },
     {
       question: 'What countries does this work in?',
